@@ -1,0 +1,20 @@
+{
+  "name": "wulei123/wechat",
+  "authors": [
+    {
+      "name": "wulei123",
+      "email": "wulei153456@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.6.4",
+    "laravel/framework": "5.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wechat\\": "src/",
+      "Wechat\\Facades\\": "src/Facades/"
+    }
+  }
+}

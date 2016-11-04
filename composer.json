@@ -13,8 +13,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Wechat\\": "src/",
-      "Wechat\\Facades\\": "src/Facades/"
+      "WeChat\\": "src/",
+      "WeChat\\Facades\\": "src/Facades/"
     }
   }
 }

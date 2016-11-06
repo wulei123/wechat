@@ -17,7 +17,8 @@
   "autoload": {
     "psr-4": {
       "WeChat\\": "src/",
-      "WeChat\\Facades\\": "src/Facades/"
+      "WeChat\\Facades\\": "src/Facades/",
+      "WeChat\\Command\\": "src/Commands/"
     }
   }
 }

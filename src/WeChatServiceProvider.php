@@ -3,8 +3,13 @@
 namespace WeChat;
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class WeChatServiceProvider
+ * @package WeChat
+ */
 class WeChatServiceProvider extends ServiceProvider
 {
+
     public function boot(){
 
     }

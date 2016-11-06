@@ -10,7 +10,7 @@ class Access
         $timestamp = Input::get("timestamp");
         $nonce = Input::get("nonce");
         $echostr = Input::get("echostr");
-        $token = YOUR_TOKEN;//替换为在公众平台填写的token
+        $token = env('WECHAT_TOKEN');//替换为在公众平台填写的token
         $tmpArr = array($token, $timestamp, $nonce);
         sort($tmpArr, SORT_STRING);//将数组中的字符串按字典序排序
         $tmpStr = implode( $tmpArr );//将所有字符串拼接起来
